@@ -17,13 +17,14 @@ page 5<br/>
 |0|GND|DC||
 |1|LP||75.52Hz|
 |2|FR|||
-|3|XD0|||
-|4|XD1|||
-|5|XD2|||
-|6|XD3|||
-|7|DOFFB?||Held High|
-|8|LP?||4x15.62Hz/629.39Hz|
-|9|YD?||37.7Hz/25Hz|Possibly RR?
-|10|5V+|DC||
+|3|XC|||
+|4|XD0|||
+|5|XD1|||
+|6|XD2|||
+|7|XD3|||
+|8|DOFFB?||Held High|
+|9|LP?||4x15.62Hz/629.39Hz|
+|10|YD?||37.7Hz/25Hz|Possibly RR?
+|11|5V+|DC||
 <br/>
 Noting that the most inconsistent data was coming through Lines 2-5, I assumed those were XD0-XD3. Line 7 showed 7 pulses every 1.6ms, then 6 pulses, alternating. This leads me to believe this is the display latch pulse. Line 6 was held high the entire time, which I assume is the DOFFB, which may be active low. 
