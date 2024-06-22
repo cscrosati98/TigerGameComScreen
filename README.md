@@ -28,3 +28,6 @@ page 5<br/>
 |11|5V+|DC||
 <br/>
 Noting that the most inconsistent data was coming through Lines 2-5, I assumed those were XD0-XD3. Line 7 showed 7 pulses every 1.6ms, then 6 pulses, alternating. This leads me to believe this is the display latch pulse. Line 6 was held high the entire time, which I assume is the DOFFB, which may be active low. 
+![image](https://github.com/cscrosati98/TigerGameComScreen/assets/93940260/26612769-cacd-4755-8650-7d05bbdfec8c)
+This shows the data for the LCD is being fed into sift registers and thgen transferred in parallel over 4 lines to the Dot Matrix LCD.
+
