@@ -17,11 +17,11 @@ page 5<br/>
 |0|GND|DC||
 |1|LP||75.52Hz|
 |2|FR|||
-|3|XC|Shift Reg|Clock for Parallel Shift register?|
-|4|XD0|Shift Reg|Data for Parallel Shift register?|
-|5|XD1|Shift Reg|Data for Parallel Shift register?|
-|6|XD2|Shift Reg|Data for Parallel Shift register?|
-|7|XD3|Shift Reg|Data for Parallel Shift register?|
+|3|XC|Shift Reg||Clock for Parallel Shift register?|
+|4|XD0|Shift Reg||Data for Parallel Shift register?|
+|5|XD1|Shift Reg||Data for Parallel Shift register?|
+|6|XD2|Shift Reg||Data for Parallel Shift register?|
+|7|XD3|Shift Reg||Data for Parallel Shift register?|
 |8|DOFFB?||Held High|
 |9|LP?||4x15.62Hz/629.39Hz|
 |10|YD?||37.7Hz/25Hz|Possibly Refresh Rate?
